@@ -1,0 +1,52 @@
+{
+	"name": "@539859/movie-quotes-ahmed",
+	"version": "0.0.1",
+	"private": false,
+	"description": "A web component that prints movie quotes.",
+	"keywords": [
+		"ServiceNow",
+		"Now Experience UI Component",
+		"@539859/movie-quotes-ahmed"
+	],
+	"readme": "./README.md",
+	"engines": {
+		"node": ">=8.6.0",
+		"npm": ">=5.3.0"
+	},
+
+	"scripts": {
+		"deploy": "now-cli deploy -f",
+		"develop": "now-cli develop -o"
+	},
+	"module": "src/index.js",
+	"dependencies": {
+		"@babel/preset-env": "^7.14.7",
+		"@babel/preset-react": "^7.14.5",
+		"@emotion/react": "^11.7.1",
+		"@emotion/styled": "^11.6.0",
+		"@servicenow/ui-core": "quebec",
+		"@servicenow/ui-renderer-snabbdom": "quebec",
+		"@servicenow/cli-archetype": "21.0.7",
+		"@servicenow/cli-component-archetype": "21.0.7",
+		"@servicenow/sass-theme": "quebec",
+		"@servicenow/sass-kit": "quebec",
+		"@servicenow/library-translate": "quebec",
+		"@storeworkflows/sn-custom-create-element": "git+https://github.com/storeworkflows/sn-custom-create-element.git",
+		"@storeworkflows/ui-kit": "git+https://github.com/storeworkflows/ui-kit.git",
+		"@storeworkflows/ui-renderer-react": "git+https://github.com/storeworkflows/swf-render-react.git",
+		"react-fast-compare": "^3.2.0",
+		"react-redux": "^7.2.6",
+		"redux": "^4.1.2",
+		"redux-thunk": "^2.4.1",
+		"@mui/icons-material": "^5.3.1",
+		"@mui/material": "^5.3.1",
+		"@mui/styles": "^5.3.0"
+	},
+	"devDependencies": {
+		"@babel/plugin-transform-react-jsx": "^7.18.10",
+		"@servicenow/cli-archetype-dev": "21.0.7",
+		"@servicenow/cli-component-archetype-dev": "21.0.7",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2"
+	}
+}

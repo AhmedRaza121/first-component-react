@@ -1,0 +1,15 @@
+{
+	"components": {
+	    "x-539859-movie-quotes-ahmed": {
+	        "innerComponents": [],
+			"uiBuilder": {
+				"associatedTypes": ["global.core", "global.landing-page"],
+				"label": "First Component",
+				"icon": "document-outline",
+				"description": "A description of my component",
+				"category": "primitives"
+			}
+	    }
+	},
+	"scopeName": "x_539859_539859_0"
+}
